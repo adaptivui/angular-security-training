@@ -35,4 +35,4 @@ jobs:
     - name: Publish to GitHub Packages Apache Maven
       run: mvn deploy --file ./pw/pw-jwt-oauth/server/pom.xml
       env:
-        GITHUB_TOKEN: ${{ github.token }}
+        repo-token: ${{ secrets.GITHUB_TOKEN }}
