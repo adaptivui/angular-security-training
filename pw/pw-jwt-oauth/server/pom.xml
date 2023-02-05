@@ -9,6 +9,14 @@
     <relativePath />
   </parent>
 
+  <distributionManagement>
+   <repository>
+     <id>github</id>
+     <name>com.worldline.bookstore</name>
+     <url>https://maven.pkg.github.com/adaptivui/training</url>
+   </repository>
+  </distributionManagement>
+  
   <groupId>com.worldline.bookstore</groupId>
   <artifactId>bookstore</artifactId>
   <version>0.0.1-SNAPSHOT</version>
