@@ -5,7 +5,7 @@ LABEL description="Example angular test webapp Docker Image"
 LABEL maintainer="adaptivui"
 
 # update packages, to reduce risk of vulnerabilities
-RUN apt-get update && apt-get upgrade -y && apt-get autoclean -y && apt-get autoremove -y
+# RUN apt-get update && apt-get upgrade -y && apt-get autoclean -y && apt-get autoremove -y
 
 RUN apk add maven \
 && export M2_HOME=/usr/local/apache-maven/apache-maven-3.3.1 \
