@@ -12,12 +12,12 @@
   <distributionManagement>
    <repository>
      <id>github</id>
-     <name>com.worldline.bookstore</name>
-     <url>https://maven.pkg.github.com/adaptivui/training</url>
+     <name>com.adaptivui.bookstore</name>
+     <url>https://maven.pkg.github.com/adaptivui/angular-security-training</url>
    </repository>
   </distributionManagement>
   
-  <groupId>com.worldline.bookstore</groupId>
+  <groupId>com.adaptivui.bookstore</groupId>
   <artifactId>bookstore</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>war</packaging>
