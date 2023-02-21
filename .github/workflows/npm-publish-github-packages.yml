@@ -3,14 +3,14 @@
 
 name: Node.js Publish Github Package
 
-#on:
-#  release:
-#    types: [created]
 on:
- push:
-    branches: [ main ]
- pull_request:
-    branches: [ main ]
+  release:
+    types: [created]
+#on:
+# push:
+#    branches: [ main ]
+# pull_request:
+#    branches: [ main ]
 jobs:
   build:
     runs-on: ubuntu-latest
